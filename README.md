@@ -1,37 +1,54 @@
-# intel-oneapi
+# Intel oneAPI Project
 
-#### 介绍
-oneAPI openEuler portal for maintaining the oneAPI projects
+## Introduction
 
-#### 软件架构
-软件架构说明
+[oneAPI](https://www.oneapi.io/) is an open, standards-based programming model developed by Intel. It is designed to simplify programming across different types of computing architectures, including CPUs, GPUs, FPGAs, and other accelerators.
 
+![OneAPI framework](assets/oneapi_framework.jpg)
 
-#### 安装教程
+The goal of [oneAPI](https://www.oneapi.io/) is to provide developers with a unified and cross-architecture programming model, for faster application performance, more productivity, and greater innovation.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## oneAPI projects
 
-#### 使用说明
+This project aims to provide a full oneAPI software stack in openEuler ecosystem.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### oneAPI Level Zero
 
-#### 参与贡献
+- Upstream: https://github.com/oneapi-src/level-zero
+- Version: 1.13.1
+- openEuler: https://gitee.com/src-openeuler/level-zero
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### Intel(R) Graphics Memory Management Library
 
+- Upstream: https://github.com/intel/gmmlib
+- Version: 22.3.10
+- openEuler: https://gitee.com/src-openeuler/intel-gmmlib
 
-#### 特技
+### Intel(R) Graphics Compiler
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- Upstream: https://github.com/intel/intel-graphics-compiler
+- Version: 1.0.14828.26
+- openEuler: https://gitee.com/src-openeuler/intel-graphics-compiler
+
+### Intel(R) ME TEE Library
+
+- Upstream: https://github.com/intel/metee
+- Version: 3.1.5
+- openEuler: https://gitee.com/src-openeuler/intel-metee
+
+### Intel(R) Graphics System Controller Firmware Update Library
+
+- Upstream: https://github.com/intel/igsc
+- Version: 0.8.9
+- openEuler: https://gitee.com/src-openeuler/intel-gsc
+
+### Intel(R) C for Metal Compiler
+- Upstream: https://github.com/intel/cm-compiler
+- version: 1.0.144
+- openEuler: https://gitee.com/src-openeuler/intel-cm-compiler
+
+### Intel(R) Graphics Compute Runtime
+
+- Upstream: https://github.com/intel/compute-runtime
+- version: 23.30.26918.50
+- openEuler: https://gitee.com/src-openeuler/intel-compute-runtime
